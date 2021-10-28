@@ -1,0 +1,142 @@
+body{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+}
+.header{
+    background-color:#0B5B67;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+
+}
+.navegacion a{
+    color:#fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navegacion img{
+    width: 40px;
+}
+.contenido{
+    padding: 70px 0;
+}
+.historia{
+    background-color: #E89292;
+}
+.historia p{
+    max-width: 800px;
+    max-height: 600px;
+    margin: 20px 40px;
+}
+.list-historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.historia div{
+    margin: 100px 350px;
+}
+.historia img{
+    width: 400px;
+    border-radius: 20px;
+}
+.titulo{
+    margin-bottom: 80px;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sub-titulo{
+    font-size: 35px;
+}
+.servicios{
+    background-color: #F6BABA;
+}
+.servicios p{
+    max-width: 800px;
+    max-height: 600px;
+    margin: 20px 40px;
+}
+.servicios img{
+    width: 150px;
+    margin-top: 45px;
+}
+.list-servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.list-servicios ul{
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.list-servicios div{
+    margin: 50px 50px;
+    background-color:#c08e8e;
+    border-radius: 40px;
+    height: 400px;
+}
+.planes{
+    background-color: #E89292;
+}
+.planes li{
+    text-align: left;
+}
+.planes p{
+    text-align: justify;
+    max-width: 150px;
+}
+.planes div{
+    background-color: gray;
+    border-radius: 30px;
+    height: 350px;
+    width: 300px;
+    margin: 0px 100px;
+}
+
+.list-planes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.planes h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.boton{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer img{
+    width: 20px;
+    margin: 0 20px
+}
+.list-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
